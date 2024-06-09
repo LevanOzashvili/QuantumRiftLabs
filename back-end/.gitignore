@@ -49,10 +49,6 @@ jspm_packages/
 *.bak
 *~
 
-# Docker
-Dockerfile
-docker-compose.yml
-
 # Coverage directory used by tools like istanbul
 coverage/
 
