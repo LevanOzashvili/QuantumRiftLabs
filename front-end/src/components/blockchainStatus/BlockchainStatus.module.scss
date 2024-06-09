@@ -1,0 +1,25 @@
+.blockchainStatusCard {
+    margin-top: 1.25rem; /* 20px */
+    padding: 1.25rem; /* 20px */
+    background-image: linear-gradient(0turn, rgba(10, 14, 23, 1) 25%, rgba(10, 14, 23, 0.66) 62%, rgba(10, 14, 23, 0.29) 99%);
+    border: 0.0625rem solid transparent; /* 1px */
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* 2px 4px */
+}
+
+.blockchainStatusCardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockchainStatusCardTitle {
+    font-size: 1.5rem; /* 24px */
+    margin-bottom: 0.625rem; /* 10px */
+    color: #9c9898;
+}
+
+.blockchainStatusCardText {
+    font-size: 1rem;
+    margin-bottom: 0.3125rem; /* 5px */
+    color: #9c9898;
+}

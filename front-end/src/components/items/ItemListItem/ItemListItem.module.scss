@@ -1,0 +1,47 @@
+.listGroupItem {
+    border: 0.0625rem solid transparent; /* 1px */
+    border-radius: 0.25rem; /* 4px */
+    flex: 1 1 auto; /* Allow items to shrink if there are fewer items */
+    max-width: 12.5rem; /* Set a maximum width for each item */
+    min-width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+@media (max-width: 281px) {
+    .listGroupItem {
+        max-width: 9rem; /* Set a maximum width for each item */
+        min-width: 9rem;
+    }
+}
+
+.itemImage {
+    background-image:url('https://static.tildacdn.net/tild3664-3431-4065-a565-326561373431/image.png');
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 2.5rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-style: solid;
+}
+
+@media (max-width: 281px) {
+    .itemImage {
+        width: 9rem;
+        height: 9rem;
+        border-radius: 2rem;
+    }
+}
+
+.itemName {
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+.itemPrice {
+    color: #555;
+}

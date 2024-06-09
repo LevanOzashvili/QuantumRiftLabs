@@ -1,0 +1,16 @@
+.customInput {
+    padding: 0.625rem; /* 10px */
+    border: 0.0625rem solid #ccc; /* 1px */
+    border-radius: 0.25rem; /* 4px */
+    font-size: 1rem;
+    outline: none; /* Remove outline on focus */
+    &:focus {
+        border-color: #ccc; /* Optionally reset border color on focus */
+    }
+}
+  
+@media (max-width: 576px) {
+    .customInput {
+        width: 100%;
+    }
+}

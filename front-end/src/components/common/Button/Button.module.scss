@@ -1,0 +1,13 @@
+.customButton {
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    background-image: linear-gradient(0turn, rgba(10, 14, 23, 1) 25%, rgba(10, 14, 23, 0.66) 62%, rgba(10, 14, 23, 0.29) 99%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.25rem; /* 4px */
+
+    &:hover {
+        background-color: #ffffff;
+    }
+}
