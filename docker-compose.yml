@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  backend:
+    build:
+      context: ./back-end
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./back-end:/usr/src/app
+    environment:
+      NODE_ENV: development
+
+  frontend:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile
+    ports:
+      - "5001:80"
+    volumes:
+      - ./front-end:/usr/src/app
+    environment:
+      NODE_ENV: development
