@@ -55,7 +55,7 @@ REACT_APP_SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/42552a2127424e09a4385de05
 
 You can also run the front-end without Docker.
 
-##### Running the Back-end
+##### Running the front-end
 
 1. Navigate to the `front-end` directory:
 
@@ -63,13 +63,13 @@ You can also run the front-end without Docker.
     cd front-end
     ```
 
-2. Start the backend server:
+2. Start the `front-end server:
 
     ```bash
     npm run start
     ```
 
-The backend server will run on `http://localhost:5001`.
+The front-end server will run on `http://localhost:5001`.
 
 
 ### Main Components of the React Application
